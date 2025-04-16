@@ -1,0 +1,42 @@
+import React, { useState } from 'react';
+import './NavBar.css';
+
+const NavBar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
+    return (
+        <nav className="navbar">
+            <div className='navbar-logos'>
+                <div className="navbar-logo">
+                    <img src="./src/assets/ucasal-logo.jpg" alt="logo ucasal" />
+                </div>
+                <div className="navbar-logo">
+                    <img src="./src/assets/bolivia-logo.png" alt="logo encuentro" />
+                </div>
+            </div>
+
+            <button className="navbar-toggle" onClick={toggleMenu}>
+                {isOpen ? '✖' : '☰'}
+            </button>
+            <ul className={`navbar-menu ${isOpen ? 'open' : ''}`}>
+                <li className="dropdown">
+                    <a href="#inicio">Encuentro</a>
+                    <ul className="dropdown-menu">
+                        <li><a href="#introduccion">Introduccion</a></li>
+                        <li><a href="#modularidad">Modularidad</a></li>
+                    </ul>
+                </li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#fechas">Fechas importantes</a></li>
+                <li><a href="#programas">Programa</a></li>
+                <li><a href="#comite">Comité</a></li>
+            </ul>
+        </nav>
+    );
+};
+
+export default NavBar;

@@ -1,0 +1,126 @@
+.hero {
+    padding-top: 80px; /* para no tapar el navbar fijo */
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .section-content {
+    padding: 40px 10%;
+    max-width: 1400px;
+    margin: auto;
+  }
+  
+  .banner img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  h2 {
+    color: #002147;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    color: #004080;
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+  
+  .underline {
+    width: 60px;
+    height: 4px;
+    background-color: #0056b3;
+    margin: 10px auto 30px;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  
+  li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .icon {
+    color: #0077b6;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 1.1rem;
+  }
+  
+  /* Cronograma */
+  .info-grid, .programa-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 20px;
+  }
+  
+  .info-item, .programa-item {
+    background-color: white;
+    padding: 20px;
+    border-left: 4px solid #0077b6;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .info-description {
+    margin-top: 30px;
+    font-style: italic;
+  }
+  
+  /* Comité */
+  .comite-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .comite-list li {
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .section-content {
+      padding: 30px 5%;
+    }
+  
+    h2 {
+      font-size: 1.6rem;
+    }
+  
+    h3 {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .underline {
+      width: 40px;
+    }
+  
+    p, li {
+      font-size: 0.95rem;
+    }
+  
+    .info-item, .programa-item {
+      padding: 15px;
+    }
+  }
+  
