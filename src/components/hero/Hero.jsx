@@ -6,7 +6,7 @@ const Hero = () => {
         <section className="hero">
 
             <div className='banner' id='inicio'>
-                <img src="./src/assets/banner.png" alt="banner" />
+                <img src="./assets/banner.png" alt="banner" />
             </div>
 
             <div className="introduccion section-content" id='introduccion'>

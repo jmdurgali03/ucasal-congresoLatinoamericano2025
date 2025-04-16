@@ -12,10 +12,10 @@ const NavBar = () => {
         <nav className="navbar">
             <div className='navbar-logos'>
                 <div className="navbar-logo">
-                    <img src="./src/assets/ucasal-logo.jpg" alt="logo ucasal" />
+                    <img src="./assets/ucasal-logo.jpg" alt="logo ucasal" />
                 </div>
                 <div className="navbar-logo">
-                    <img src="./src/assets/bolivia-logo.png" alt="logo encuentro" />
+                    <img src="./assets/bolivia-logo.png" alt="logo encuentro" />
                 </div>
             </div>
 
