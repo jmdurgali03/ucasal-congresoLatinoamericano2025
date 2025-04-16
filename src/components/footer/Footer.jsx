@@ -23,7 +23,7 @@ const Footer = () => {
                 <h3>Para mayor información</h3>
                 <p><a href="http://tja.ucb.edu.bo/encuentrodelagua/" target='_blank'>Primer Encuentro Latinoamericano por el Agua</a></p>
                 <p>Correo:<a href="gabinetehidraulica@ucasal.edu.ar"> Esp. Ing. M. Cecilia Botelli </a></p>
-                <a href="./src/assets/circular2025.pdf" target="_blank" rel="noopener noreferrer" className="circular-btn">Circular Marzo 2025</a>
+                <a href="./assets/circular2025.pdf" target="_blank" rel="noopener noreferrer" className="circular-btn">Circular Marzo 2025</a>
 
             </div>
         </footer>
