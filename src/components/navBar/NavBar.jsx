@@ -27,9 +27,12 @@ const NavBar = () => {
                     <a href="#inicio">Encuentro</a>
                     <ul className="dropdown-menu">
                         <li><a href="#introduccion">Introduccion</a></li>
-                        <li><a href="#modularidad">Modularidad</a></li>
+                        <li><a href="#modularidad">Modalidad</a></li>
+                        <li><a href="./assets/circular1-2025.pdf" target="_blank">Circular 1</a></li>
+                        <li><a href="./assets/circular2-2025.pdf" target="_blank">Circular 2</a></li>
                     </ul>
                 </li>
+                <li><a href="./assets/formato-resumen.pdf" target="_blank">Formato Resumen</a></li>
                 <li><a href="#objetivos">Objetivos</a></li>
                 <li><a href="#fechas">Fechas importantes</a></li>
                 <li><a href="#programas">Programa</a></li>

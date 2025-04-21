@@ -3,6 +3,7 @@
     padding: 20px 5%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between; 
     border-top: 2px solid #ccc;
 }
@@ -64,11 +65,21 @@ a:hover {
     background-color: #005691;
 }
 
+.btn-container {
+    display: flex;
+    gap: 10px;
+}
+
 @media (max-width: 768px) {
     .footer {
         flex-direction: column;
         text-align: center;
         justify-content: center;
         align-items: center;
+    }
+
+    .footer-section {
+        margin-right: 0;
+        max-width: 100%;
     }
 }
