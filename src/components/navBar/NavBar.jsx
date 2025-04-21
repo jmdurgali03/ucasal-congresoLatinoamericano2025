@@ -36,9 +36,9 @@ const NavBar = () => {
 
             <ul className={`navbar-menu ${isOpen ? 'open' : ''}`}>
                 <li className="dropdown">
-                    <button onClick={handleSubMenuToggle} className="dropdown-toggle">
+                    <a onClick={handleSubMenuToggle} className="dropdown-toggle">
                         Encuentro
-                    </button>
+                    </a>
                     <ul className={`dropdown-menu ${isSubMenuOpen ? 'show' : ''}`}>
                         <li><a href="#introduccion" onClick={handleCloseMenu}>Introducción</a></li>
                         <li><a href="#modularidad" onClick={handleCloseMenu}>Modalidad</a></li>
